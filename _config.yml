@@ -8,13 +8,15 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Anargha Mondal's Website"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+name                     : &name "Anargha Mondal"
+description              : &description "I am an undergrad at the Indian Institute of Science Education and Research. I am currently interested in how 
+                                        massive neutrinos affect structure formation at large-scales. Looking down the line, I wish to continue working
+                                        on topics that blend particle physics, cosmology, and astrophysics."
+url                      : https://github.com/anargham14 # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+# baseurl                  : "" # the subpath of your site, e.g. "/blog"
+# repository               : ""
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -22,13 +24,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  name             : "Anargha Mondal"
+  pronouns         : "he/him"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Pune, Maharashtra"
+  university       : "IISER Pune"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "anargha.mondal@students.iiserpune.ac.in" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
