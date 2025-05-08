@@ -4,7 +4,7 @@ title: "Welcome to my website! It's still in development (and will probably be t
 author_profile: true
 redirect_from: 
   - /about/
-  - /about.html
+  - <a href="about.html">About</a>
 ---
 
 This is the front page of my attempt at compiling a short and sweet window into my world. I do not intend this to be a platform to preach words of wisdom, but merely to shed light on how I perceive this (expanding) universe and try to make the tiniest sense out of it all .

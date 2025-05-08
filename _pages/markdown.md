@@ -4,7 +4,7 @@ title: "Markdown"
 author_profile: true
 redirect_from: 
   - /md/
-  - /markdown.html
+  - <a href="/markdown.html">About</a>
 ---
 
 ## Locations of key files/directories
