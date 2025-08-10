@@ -3950,3 +3950,13 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+/* Banner color override for Publications page only */
+body.publications #banner {
+    background-color: #1e9a5c; /* your desired color */
+    background-image: "images/Publications.png"; 
+}
+
+body.publications #banner:before {
+    background-color: rgba(0, 64, 128, 0.75); /* overlay tint if your theme uses it */
+}
