@@ -3960,3 +3960,9 @@ body.publications #banner {
 body.publications #banner:before {
     background-color: rgba(0, 64, 128, 0.75); /* overlay tint if your theme uses it */
 }
+
+#one .inner, #two .inner {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
