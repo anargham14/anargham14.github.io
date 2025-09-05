@@ -3962,7 +3962,6 @@ body.publications #banner:before {
 }
 
 #one .inner, #two .inner {
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 0.5em;
 }
 
