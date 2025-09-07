@@ -11,8 +11,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <!-- MathJax -->
+        <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],   // allow $...$ and \(...\)
+                displayMath: [['$$','$$'], ['\\[','\\]']]   // allow $$...$$ and \[...\]
+            }
+        };
+        </script>
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
-	</head>
+    </head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
@@ -70,7 +79,11 @@
                                     <header class="major">
                                         <h2>Fisher Forecasts and Corner Plots</h2>
                                     </header>
-                                    An excellent discussion on Fisher forecasts can be found here and here. This is a great resource to interpret corner plots.
+                                    An excellent discussion on Fisher forecasts can be found <a href="Cosmology_Lecture_Notes2.pdf">here </a> and <a href="FisherDataAnalysis.pdf">here</a>. <a href="https://arxiv.org/abs/0906.4123">This</a> is a great resource to interpret corner plots.
+                                    <header class="major">
+                                        <h2>                                              </h2>
+                                    </header>
+                                    <p>While developing my code for calculating the two-point correlation function to eventually compare it's predictions to the kNN CDFs, I was required to learn about Fast Fourier Transforms. Codes/algorithms to compute fast fourier transforms is indeed the pinnacle of numerical analysis. I will shortly be adding my own set of notes on FFTs.</p>
                                 </div>
 							</section>
 
